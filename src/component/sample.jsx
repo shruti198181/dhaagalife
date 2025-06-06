@@ -46,7 +46,7 @@ shoulder strap and Cane handles. The embroidery and the colours feel like the wa
 sun on a chill day. It also has a pocket inside and a large beautiful bag charm with<br/> 
 tassels and cowrie shells. This bag is a statement piece that is an exquisite addition to <br/>your bag collection. 
         </Col>
-        <Col md={6}>
+        <Col md={6} className='text-sm-center'>
         <img src="https://dhaagalife.com/cdn/shop/files/0000s_0003_DH_SUN_Aztec_01_lookbook02.jpg?v=1659530592&width=750"
         alt="ButterCups Garden"
         className='img-fluid'/>
