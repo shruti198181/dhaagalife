@@ -48,7 +48,7 @@ function Sliders () {
                 
                 <Carousel.Item>
                     <Row>
-                        <Col xs={6} sm={3} className='text-center'>
+                        <Col xs={6} sm={3} className='text-center text-sm-start'>
                          <Image 
                            src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/Dhaaga_13042024_5187_400x400.jpg?v=1742630432'}
                            alt="Garden Tote Bag"
@@ -97,7 +97,7 @@ function Sliders () {
             
                          <Carousel.Item>
                             <Row>
-                        <Col xs={6} sm={3} className='text-center'>
+                        <Col xs={6} sm={3} className='text-center text-sm-start'>
                          <Image 
                            src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/03_400x400.jpg?v=1714657416'}
                            alt="Sea Shell Half Moon Bag"
