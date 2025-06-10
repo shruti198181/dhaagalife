@@ -152,6 +152,7 @@ function Mycarousel() {
               <h1>You may also like</h1>
               <div style={{
                 border: '1px solid',
+                width:'400px',
                 borderRadius: '10px',
                 display: 'flex',
                 alignItems: 'center',
@@ -181,7 +182,7 @@ function Mycarousel() {
                 borderRadius: '10px',
                 display: 'flex',
                 alignItems: 'center',
-                // width: '430px',
+                 width: '400px',
                 padding: '10px',
                 gap: '12px',
                 borderColor: 'pink',
@@ -203,12 +204,15 @@ function Mycarousel() {
                   <span style={{ textDecoration: 'underline' }}>Learn More</span>
                 </span>
               </div>
-              <button style={{  marginTop: '10px', borderRadius: '20px', borderColor: 'red', backgroundColor: '#FFF3E0' }}>Add to Cart</button>
-              <button className='btn btn-dark' style={{ marginTop: '10px' }}>BUY NOW
+              <div className='d-md-block'>  
+             <button style={{  marginTop: '10px', borderRadius: '20px', borderColor: 'red', backgroundColor: '#FFF3E0',width:'400px' }}>Add to Cart</button><br/>
+              <button className='btn btn-dark' style={{ marginTop: '10px' ,width:'400px'}}>BUY NOW
                 <FcGoogle style={{ borderRadius: '50px', border: '1px solid wihte', backgroundColor: 'white', width: '20px' }} className='ms-2' />
                 <LiaAmazonPay style={{ borderRadius: '50px', border: '1px solid white', width: '20px', backgroundColor: 'white', color: 'blue' }} />
                 <SiPaytm style={{ borderRadius: '50px', border: '1px solid white', width: '20px', backgroundColor: 'white', color: 'blue' }} />
               </button>
+               </div>
+
               <div>
                 <p>Tropical Coco half moon Bag, a handcrafted gem inspired by<br /> the serene beauty of coconut trees and tropical vibes. This <br />
                   exquisite clutch features intricate coconut tree motifs<br /> embroidered on natural jute, complemented by wooden beads <br />

@@ -47,7 +47,7 @@ const totalprice = count.reduce((total,id) =>{
 },0);
 
 return (
-<div style={{ backgroundColor: '#FFF3E0' }}>
+<div style={{ backgroundColor: '#FFF3E0',width:'100vw' }}>
   <Container fluid="md">
     <h3 className=" py-5">Frequently Bought Together</h3>
     <Row className="border border-danger-subtle rounded p-3 g-4 justify-content-center">
