@@ -21,7 +21,7 @@ const images = [
 
 function Sliders () {
     return(
-        <div style={{ backgroundColor: '#FFF3E0' }}>
+        <div style={{ backgroundColor: '#FFF3E0', width:'100vw' }}>
         <Container className="py-5">
             <Carousel indicators={false} 
             interval={3000}
