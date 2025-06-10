@@ -14,7 +14,7 @@ function MyNavbar() {
         </div>
         <Navbar expand="lg" style={{ height: '70px', width: '100%' }} className='py-5 py-lg-5'>
           <Container>
-            <Navbar.Brand href="/home" style={{ display: 'flex', alignItems: 'center' }}>
+            <Navbar.Brand  as={NavLink} to="/home" style={{ display: 'flex', alignItems: 'center' }}>
               <img
                 src="https://dhaagalife.com/cdn/shop/files/Olive-Logo_website.png?v=1660290719&width=270"
                 alt="logo"
