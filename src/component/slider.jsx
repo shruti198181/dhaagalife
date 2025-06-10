@@ -47,7 +47,7 @@ function Sliders () {
                 >
                 
                 <Carousel.Item>
-                    <Row style={{display:'flex',justifyContent:'sm-start'}}>
+                    <Row className="d-xs-flex justify-content-xs-start">
                         <Col xs={6} sm={3} className='text-center text-sm-start'>
                          <Image 
                            src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/Dhaaga_13042024_5187_400x400.jpg?v=1742630432'}
