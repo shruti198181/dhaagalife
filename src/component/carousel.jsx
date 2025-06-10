@@ -152,7 +152,7 @@ function Mycarousel() {
               <h1>You may also like</h1>
               <div style={{
                 border: '1px solid',
-                width:'400px',
+                width:'370px',
                 borderRadius: '10px',
                 display: 'flex',
                 alignItems: 'center',
@@ -182,7 +182,7 @@ function Mycarousel() {
                 borderRadius: '10px',
                 display: 'flex',
                 alignItems: 'center',
-                 width: '400px',
+                 width: '370px',
                 padding: '10px',
                 gap: '12px',
                 borderColor: 'pink',
@@ -205,8 +205,8 @@ function Mycarousel() {
                 </span>
               </div>
               <div className='d-md-block'>  
-             <button style={{  marginTop: '10px', borderRadius: '20px', borderColor: 'red', backgroundColor: '#FFF3E0',width:'400px' }}>Add to Cart</button><br/>
-              <button className='btn btn-dark' style={{ marginTop: '10px' ,width:'400px'}}>BUY NOW
+             <button style={{  marginTop: '10px', borderRadius: '20px', borderColor: 'red', backgroundColor: '#FFF3E0',width:'370px' }}>Add to Cart</button><br/>
+              <button className='btn btn-dark' style={{ marginTop: '10px' ,width:'370px'}}>BUY NOW
                 <FcGoogle style={{ borderRadius: '50px', border: '1px solid wihte', backgroundColor: 'white', width: '20px' }} className='ms-2' />
                 <LiaAmazonPay style={{ borderRadius: '50px', border: '1px solid white', width: '20px', backgroundColor: 'white', color: 'blue' }} />
                 <SiPaytm style={{ borderRadius: '50px', border: '1px solid white', width: '20px', backgroundColor: 'white', color: 'blue' }} />
