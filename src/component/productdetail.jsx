@@ -156,7 +156,7 @@ function ProductDetail  (){
 return(
 <>
 
-  <div style={{display:'flex',flexDirection:'row',backgroundColor: '#FFF3E0',width:'100vw', padding:'40px 0'}} className="d-sm-block ps-sm-5">
+  <div style={{display:'flex',flexDirection:'row',backgroundColor: '#FFF3E0',width:'100vw', padding:'40px 0'}} className="d-flex flex-column flex-sm-row ps-sm-5">
     <div className="col-md-6 text-center">
         <img 
         src={product.default}
