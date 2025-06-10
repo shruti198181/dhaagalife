@@ -10,7 +10,7 @@ import{Button} from 'react-bootstrap'
  return(
   <>
    <MyNavbar/>
-   <div style={{position:'relative'}}><div style={{display:'flex',justifyContent:'space-between'}}>
+   <div style={{position:'relative'}}><div style={{display:'flex',justifyContent:'space-between'}} className='pt-5'>
         <Button style={{position:'absolute', backgroundColor: '#FFF3E0', color:'black',
                   borderRadius: '20px',  borderColor: hover ? "red" : "black",
                   border: '1px solid',}}
