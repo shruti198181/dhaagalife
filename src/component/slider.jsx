@@ -47,7 +47,7 @@ function Sliders () {
                 >
                 
                 <Carousel.Item>
-                    <Row className="d-xs-flex justify-content-xs-start">
+ <Row className="d-flex justify-content-start d-sm-none">
                         <Col xs={6} sm={3} className='text-center text-sm-start'>
                          <Image 
                            src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/Dhaaga_13042024_5187_400x400.jpg?v=1742630432'}
@@ -96,7 +96,7 @@ function Sliders () {
                 </Carousel.Item>
             
                          <Carousel.Item>
-                            <Row className="d-xs-flex justify-content-xs-start">
+                            <Row className="d-flex justify-content-start d-sm-none">
                         <Col xs={6} sm={3} className='text-center text-sm-start'>
                          <Image 
                            src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/03_400x400.jpg?v=1714657416'}
