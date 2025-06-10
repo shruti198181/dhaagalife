@@ -20,7 +20,7 @@ function Sample () {
         </Col>
        </Row>
        <Row>
-        <Col md={6} className=" p-0 pt-sm-1 text-sm-start text-xs-start">
+        <Col md={6} className=" p-0 pt-sm-1 mt-sm-1 text-sm-start text-xs-start">
             <img
               src="https://dhaagalife.com/cdn/shop/files/BC_03.jpg?v=1658643554&width=750"
               alt="Garden of Buttercups Small"

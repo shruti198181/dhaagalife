@@ -59,7 +59,7 @@ function Sliders () {
                           <p><button style={{backgroundColor: '#FFF3E0',border: '1px solid red', borderRadius: '20px'}}>Add to cart</button></p>
                           </div>
                         </Col>
-                        <Col>
+                        <Col xs={6} sm={3} className='text-center text-sm-start'>
                         <Image 
                         src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/IMG_8865_400x400.jpg?v=1738980898'}
                         alt="Marigold Tote Bag~Hand-paint"
@@ -70,7 +70,7 @@ function Sliders () {
                           <p><button style={{backgroundColor: '#FFF3E0',border: '1px solid red', borderRadius: '20px'}}>Add to cart</button></p>
                          </div>
                         </Col>
-                        <Col>
+                        <Col xs={6} sm={3} className='text-center text-sm-start'>
                         <Image 
                         src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/BestSellers_Square_0001_KC_05_Sagegreen_400x400.jpg?v=1731585181'}
                         alt="Sage Green Keycharm"
@@ -81,7 +81,7 @@ function Sliders () {
                           <p><button style={{backgroundColor: '#FFF3E0',border: '1px solid red', borderRadius: '20px'}}>Add to cart</button></p>
                         </div>
                         </Col>
-                         <Col>
+                         <Col xs={6} sm={3} className='text-center text-sm-start'>
                          <Image 
                          src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/IMG_3840_400x400.jpg?v=1714683438'}
                           alt="Golden Glow Half Moon Clutch..."
@@ -108,7 +108,7 @@ function Sliders () {
                           <p><button style={{backgroundColor: '#FFF3E0',border: '1px solid red', borderRadius: '20px'}}>Add to cart</button></p>
                           </div>
                         </Col>
-                        <Col>
+                        <Col xs={6} sm={3} className='text-center text-sm-start'>
                         <Image 
                         src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/IMG_6936_400x400.jpg?v=1714938235'}
                         alt="Garder Denim Vegan Suede Slin.."
@@ -119,7 +119,7 @@ function Sliders () {
                           <p><button style={{backgroundColor: '#FFF3E0',border: '1px solid red', borderRadius: '20px'}}>Add to cart</button></p>
                          </div>
                         </Col>
-                        <Col>
+                        <Col xs={6} sm={3} className='text-center text-sm-start'>
                         <Image 
                         src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/716B663D-4B3B-4B47-BD1E-4B39CA08BE07_400x400.jpg?v=1714931148'}
                         alt="Leafy Tan Stud Round Sling Bag "
@@ -130,7 +130,7 @@ function Sliders () {
                           <p><button style={{backgroundColor: '#FFF3E0',border: '1px solid red', borderRadius: '20px'}}>Add to cart</button></p>
                         </div>
                         </Col>
-                         <Col>
+                         <Col xs={6} sm={3} className='text-center text-sm-start'>
                          <Image 
                          src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/HMB_18-PhotoRoom_7_400x400.jpg?v=1695885168'}
                           alt="Lumina Luxe Half Moon Bag"
