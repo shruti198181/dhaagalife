@@ -47,9 +47,9 @@ const totalprice = count.reduce((total,id) =>{
 },0);
 
 return (
-<div style={{ backgroundColor: '#FFF3E0',width:'100vw' }}>
+<div style={{ backgroundColor: '#FFF3E0' }}>
   <Container fluid="md">
-    <h3 className=" py-5">Frequently Bought Together</h3>
+    <div style={{width:'100vw'}}>    <h3 className=" py-5">Frequently Bought Together</h3>
     <Row className="border border-danger-subtle rounded p-3 g-4 justify-content-center">
       {data.map((card,index)=>(
         <Col key={card.id} xs={12} sm={6} md={4} lg={3} className="text-center">
@@ -104,6 +104,8 @@ return (
         </button>
       </div>
     </div>
+    </div>
+
   </Container>
 </div>
 );
