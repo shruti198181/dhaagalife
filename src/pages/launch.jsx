@@ -11,7 +11,7 @@ import{Button} from 'react-bootstrap'
   <>
    <MyNavbar/>
    <div style={{position:'relative'}}><div style={{display:'flex',justifyContent:'space-between'}}>
-        <Button style={{position:'absolute',marginLeft:'40px', backgroundColor: '#FFF3E0', color:'black',
+        <Button style={{position:'absolute', backgroundColor: '#FFF3E0', color:'black',
                   borderRadius: '20px',  borderColor: hover ? "red" : "black",
                   border: '1px solid',}}
                     onMouseEnter={() => sethover(true)}
