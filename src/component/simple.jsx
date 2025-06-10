@@ -18,7 +18,7 @@ function Mynav() {
     'Featured Accerries',
   ];
   return (
-    <div style={{ backgroundColor: '#FFF3E0' }}>
+    <div style={{ backgroundColor: '#FFF3E0',width:'100vw' }}>
       <Container>
         
         <div

@@ -96,7 +96,7 @@ function Sliders () {
                 </Carousel.Item>
             
                          <Carousel.Item>
-                            <Row>
+                            <Row className="d-xs-flex justify-content-xs-start">
                         <Col xs={6} sm={3} className='text-center text-sm-start'>
                          <Image 
                            src={'https://cdn.shopify.com/s/files/1/0605/0558/7893/files/03_400x400.jpg?v=1714657416'}
