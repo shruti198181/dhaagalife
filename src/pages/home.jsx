@@ -1,6 +1,6 @@
 import React from 'react';
 import MyNavbar from '../component/nav';
- import Mycarousel from '../component/carousel';
+//  import Mycarousel from '../component/carousel';
  import Product from '../component/product'; 
  import Sliders from '../component/slider';
  import Sample from '../component/sample';
@@ -10,7 +10,7 @@ import MyNavbar from '../component/nav';
  return(
   <>
      <MyNavbar/>
-  <Mycarousel/>
+  {/* <Mycarousel/> */}
   <Product/> 
   <Sliders/>
   <Sample/>
