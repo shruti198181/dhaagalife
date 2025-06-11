@@ -8,7 +8,8 @@ function Sample () {
     return(
         <>
         <Container>
-            <Row>
+            <Row style={{display:'flex', flexDirection :'row'
+            }}>
                 <Col md={4} sm={3} xs={6}>
                 <img src="https://dhaagalife.com/cdn/shop/collections/Collection-photos_eoss_GARDEN-TOTE.gif?v=1713512797&width=535"
                     style={{objectFit:'contain',width:'100%',height:'600px'}}
@@ -28,8 +29,7 @@ function Sample () {
                     fluid/>
                      <p className='text-center fs-3'>Key/Bags Charms<FaArrowRight size={24} color="black" /></p>
                 </Col>
-            </Row>
-            <Row>
+                
                 <Col md={4} sm={3} xs={6}>
                 <img src="https://dhaagalife.com/cdn/shop/collections/POT_Collection_01.jpg?v=1713512941&width=535"
                     style={{objectFit:'contain',width:'100%',height:'600px'}}
